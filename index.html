@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d4bad4efe6.js" crossorigin="anonymous"></script>
+    
+
+    <script src="./scripts/open_close.js"></script>
+    <script src="./scripts/chooseRate.js"></script>
+    <script src="./scripts/afterLoad.js"></script>
+
+    <title>Popup</title>
+</head>
+<body>
+
+    <div class="askToHelp" style="display: none;">Помогите нам сделать<br>сервис лучше</div>
+
+    <button id="mainBut" class="mainButton arrow" onclick="open_close()" style="display: none;">
+        <i class="far fa-laugh"></i>
+    </button>
+
+    <div class="main-window" style="display: none;">
+        <div class="top-part">
+            <p>Как вы оцениваете Карту низких цен на нашем сайте?</p>
+    
+            <div class="rates-blocks">
+                <div class="rate" onclick="ChooseRate(0)"><i class="far fa-dizzy"></i></div>
+                <div class="rate" onclick="ChooseRate(1)"><i class="far fa-frown"></i></div>
+                <div class="rate" onclick="ChooseRate(2)"><i class="far fa-meh"></i></div>
+                <div class="rate" onclick="ChooseRate(3)"><i class="far fa-smile"></i></div>
+                <div class="rate" onclick="ChooseRate(4)"><i class="far fa-laugh-beam"></i></div> 
+            </div>
+        </div>
+
+        <div class="bottom-part" style="display: none;">
+
+            <div class="line1"></div>
+            <div class="line line-arrow">.</div>
+            <div class="line2"></div>
+
+            <textarea  cols="40" rows="5" placeholder="Опишите ваше мнение или проблему"></textarea>
+
+            <button class="sendBtn">Отправить</button>
+        </div>
+
+    </div>
+
+    
+
+</body>
+</html>
