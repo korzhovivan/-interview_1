@@ -3,6 +3,15 @@ var open_close = () => {
     var icon = document.getElementsByTagName("i")[0];
     var button = document.getElementById("mainBut");
     
+
+
+    if (screen && screen.width < 600){          // mobile
+        var new_i = document.createElement("i");
+        new_i.className = "fas fa-times cross";
+        popup.prepend(new_i);
+        
+    }
+
     if(popup.style.display == 'none'){
         popup.style.display = 'block';
         icon.className = 'fas fa-times';

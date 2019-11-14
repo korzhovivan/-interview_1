@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px) {
+    .main-window{
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+    .top-part{
+        margin-top: 50px;
+    }
+    p{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+    .rates-blocks{
+        margin-top:10px;
+    }
+    .cross{
+        position: fixed;
+        right: 0px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .popup{
+        height: 100%;;
+    }
+    
+  }
