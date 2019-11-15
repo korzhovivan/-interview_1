@@ -12,4 +12,10 @@ var Send = () => {
     askLabel.style.display = "block";
     askLabel.innerHTML = "Спасибо за отзыв";
 
+    setTimeout(
+        function() {
+            button.style.display = "none";
+            askLabel.style.display = "none";
+    }, 2000);
+
 }
