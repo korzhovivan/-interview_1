@@ -27,6 +27,28 @@ body{
     border-left: 15px solid #2b3439;
     border-bottom: 15px solid transparent;
   }
+  .sayThanks{
+    position: fixed;
+    bottom: 24px;
+    right: 95px;
+    background: #2b3439;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 4px;
+  }
+  .sayThanks:after {
+    content: " ";
+    position: absolute;
+    right: -9px;
+    top: 4px;
+    border-top: 15px solid transparent;
+    border-right: none;
+    border-left: 15px solid #2b3439;
+    border-bottom: 15px solid transparent;
+  }
 
 .mainButton{
     background: #00a4ff;
