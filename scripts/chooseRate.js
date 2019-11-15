@@ -5,6 +5,9 @@ var ChooseRate = (rate) => {
     var line1 = document.getElementsByClassName("line1")[0];
     var line2 = document.getElementsByClassName("line2")[0];
     var mainWindow = document.getElementsByClassName("main-window")[0];
+
+    //Можно было в зависимости от дивайса подключать разные скрипты(для телефона одни а для других другие, но сделал так)
+
     if(screen && screen.width > 600){
         mainWindow.style.height = 407;
     }

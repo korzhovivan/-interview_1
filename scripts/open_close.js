@@ -10,6 +10,7 @@ var open_close = () => {
         new_i.className = "fas fa-times cross";
         popup.prepend(new_i);
         
+        new_i.onclick = open_close;
     }
 
     if(popup.style.display == 'none'){
